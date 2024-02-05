@@ -1,0 +1,387 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1{
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    font-size: 48px;
+}
+
+p
+{
+    font-family: 'EB Garamond', serif;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.navbar
+{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    margin-top: -15px;
+    margin-left: 0px;
+    
+}
+
+
+.icons
+{
+    margin-right: 30px;
+    margin-top:10px;
+  
+}
+
+.icons1:hover
+{
+    color: rgb(85, 181, 181);
+    cursor: pointer;
+}
+
+.icons1
+{
+    padding-left: 20px;
+   
+}
+
+
+.navbar-nav .nav-link {
+    position: relative;
+    text-decoration: none;
+    color: black; /* Change color as needed */
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color:rgb(85, 181, 181); /* Change color as needed */
+    transition: width 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    color:  rgb(85, 181, 181); /* Change color as needed */
+}
+
+.navbar-nav .nav-link:hover::after {
+    width: 100%;
+}
+
+.container-1
+{
+    padding: 50px;
+    background-color: black;
+    width: 20%;
+    height: 300px ;
+    margin-left: 125px;
+    background-image: url(./images/averie-woodard-5d20kdvFCfA-unsplash.jpg);
+    background-size: cover;
+   
+
+}
+
+
+
+.image-text
+{
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    margin-top: 30%;
+    text-shadow: 3px 1px 5px black;
+}
+
+
+
+.container-2
+{
+    padding: 50px;
+    background-color: black;
+    width: 20%;
+    height: 300px ;
+    margin-left: 125px;
+    margin-top: 20px;
+    background-image: url(./images/timo-stern-iUBgeNeyVy8-unsplash.jpg);
+    background-size: cover;
+}
+
+.container-3
+{
+    display: flex;
+    padding: 50px;
+    background-color: black;
+    width: 42%;
+    height: 480px ;
+    margin-left: 510px;
+    margin-top: -620px;
+    background-image: url(./images/xavier-mouton-photographie-ry_sD0P1ZL0-unsplash.jpg);
+    background-size: cover;
+}
+
+.container-4
+{
+    
+    padding: 50px;
+    margin-left: 510px;
+    margin-top: 40px;
+    width: 42%;
+    height: 50px;
+
+}
+
+.main-text
+{
+    
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 30px;
+  margin-left: -50px;
+    text-align: left;
+    margin-top: -50px; 
+
+}
+
+.main-para
+{
+    
+  
+  font-size: 16px;
+  margin-left: -50px;
+    text-align: left;
+    margin-top: 0px; 
+
+}
+
+.container-5
+{
+   
+    padding: 50px;
+    
+    width: 400px;
+    height: 620px ;
+    margin-left: 1220px;
+    margin-top: -620px;
+
+}
+
+h4
+{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: -50px;
+    text-align: left;
+    padding: 15px;
+}
+
+.main-text-right
+{
+    font-size: 20px;
+    text-align: left;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.main-text-sub
+{
+    text-align: left;
+    font-family: 'EB Garamond', serif;
+    font-size: 16px;
+
+}
+
+.tile
+{
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.tile:hover
+{
+    box-shadow: 0px 0.5px 10px rgb(207, 206, 206);
+    transition: 0.3s;
+    cursor: pointer;
+   
+}
+
+
+.container-1,
+.container-2,
+.container-3 {
+    transition: transform 0.6s ease;
+}
+
+.container-1:hover,
+.container-2:hover,
+.container-3:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    
+}
+
+
+.container-6
+{
+    margin-top: 150px;
+    margin-left: 122px;
+    padding: 50px;
+   
+    width: 400px;
+    height: 300px ;
+}
+
+.container-7
+{
+    margin-top: -300px;
+    margin-left: 640px;
+    padding: 50px;
+   
+    width: 400px;
+    height: 300px ;
+}
+
+.container-8
+{
+    margin-top: -300px;
+    margin-left: 1150px;
+    padding: 50px;
+   
+    width: 400px;
+    height: 300px ;
+}
+
+img{
+
+    width: 400px;
+    margin-left: -50px;
+    margin-top: -50px;
+
+
+}
+
+.second-section-text
+{
+    margin-top: 10px;
+    margin-left: -40px;
+    text-align: left;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 24px;
+}
+
+.second-section-para
+{
+    margin-left: -40px;
+
+}
+
+.section-three-heading
+{
+    margin-top: 200px;
+    opacity: 30%;
+}
+
+.section-three-heading {
+    position: relative;
+    display: inline-block;
+    margin-left: 670px;
+}
+
+.section-three-heading::after {
+    content: '';
+    position: absolute;
+    left: 100px;
+    bottom: -5px; /* Adjust the distance of the underline from the text */
+    width: 30%; /* Adjust the width of the underline */
+    height: 4px; /* Adjust the thickness of the underline */
+    background-color: black; /* Adjust the color of the underline */
+}
+
+
+
+#img1,
+#img2,
+#img3 {
+    transition: transform 0.6s ease;
+}
+
+#img1:hover,
+#img2:hover,
+#img3:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    
+}
+
+.container-9
+{   display: flex;
+    background-image: url(./images/tobias-tullius-XQ1cWY7v2PI-unsplash.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 500px;
+    margin-left: 130px;
+    margin-top: 60px;
+}
+
+.container-10
+{
+    display: flex;
+    background-image: url(./images/averie-woodard-5d20kdvFCfA-unsplash.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 500px;
+    margin-left: 600px;
+    margin-top: -500px;
+}
+
+.container-11
+{
+    display: flex;
+    background-image: url(./images/craig-bradford-CCELQ6NlkcI-unsplash.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 500px;
+    margin-left: 1070px;
+    margin-top: -500px;
+}
+
+h5
+{
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    
+}
+
+.image-text2
+{
+    margin-top: 50%;
+    margin-left: 90px;
+    margin-top: 210px;
+    text-shadow: 2px 2px 30px black;
+    
+}
+
+
+.image-text2 {
+    transition: transform 0.3s ease-in-out; /* Smooth transition for the transform property */
+  }
+  
+  .image-text2:hover {
+    transform: scale(1.1); /* Zoom in effect on hover */
+  }
+  
+
+  .jvtag
+
+  {
+    font-family: 'Bebas Neue', sans-serif;
+  }
+
+
+
+
