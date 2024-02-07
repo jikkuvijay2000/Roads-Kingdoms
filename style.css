@@ -5,7 +5,6 @@
     box-sizing: border-box;
 }
 
-
 h1{
     font-family: 'Bebas Neue', sans-serif;
     text-align: center;
@@ -322,7 +321,7 @@ img{
 {   display: flex;
     background-image: url(./images/tobias-tullius-XQ1cWY7v2PI-unsplash.jpg);
     background-size: cover;
-    width: 400px;
+    width: 450px;
     height: 500px;
     margin-left: 130px;
     margin-top: 60px;
@@ -333,9 +332,9 @@ img{
     display: flex;
     background-image: url(./images/averie-woodard-5d20kdvFCfA-unsplash.jpg);
     background-size: cover;
-    width: 400px;
+    width: 450px;
     height: 500px;
-    margin-left: 600px;
+    margin-left: 620px;
     margin-top: -500px;
 }
 
@@ -344,9 +343,9 @@ img{
     display: flex;
     background-image: url(./images/craig-bradford-CCELQ6NlkcI-unsplash.jpg);
     background-size: cover;
-    width: 400px;
+    width: 450px;
     height: 500px;
-    margin-left: 1070px;
+    margin-left: 1110px;
     margin-top: -500px;
 }
 
@@ -359,21 +358,47 @@ h5
 
 .image-text2
 {
+    font-family: 'Bebas Neue', sans-serif;
     margin-top: 50%;
-    margin-left: 90px;
-    margin-top: 210px;
+    margin-left: 160px;
+    margin-top: 230px;
     text-shadow: 2px 2px 30px black;
+    transition: transform 0.3s ease-in-out; 
     
 }
-
-
-.image-text2 {
+.image-text1 {
+    margin-top: 50%;
+    margin-left: 160px;
+    margin-top: 230px;
+    text-shadow: 2px 2px 30px black;
+    font-family: 'Bebas Neue', sans-serif;
     transition: transform 0.3s ease-in-out; /* Smooth transition for the transform property */
   }
+  .image-text3 {
+    margin-top: 50%;
+    margin-left: 140px;
+    margin-top: 230px;
+    text-shadow: 2px 2px 30px black;
+    font-family: 'Bebas Neue', sans-serif;
+    transition: transform 0.3s ease-in-out; /* Smooth transition for the transform property */
+  }
+
+
+
   
   .image-text2:hover {
     transform: scale(1.1); /* Zoom in effect on hover */
   }
+  
+  .image-text3:hover {
+    transform: scale(1.1); /* Zoom in effect on hover */
+  }
+  
+  
+  .image-text1:hover {
+    transform: scale(1.1); /* Zoom in effect on hover */
+  }
+  
   
 
   .jvtag
@@ -383,5 +408,113 @@ h5
   }
 
 
+.button
+{
+    margin-left: 770px;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 2px;
+    padding: 10px;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+    
+}
 
+.button:hover
+{
+    color:  rgb(85, 181, 181);
+   transition: 0.3s ease-in;
+   box-shadow:1px 1px 10px rgb(209, 209, 209) ;
+}
 
+.section-three-heading
+{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 48px;
+  
+}
+.container-21
+{   
+    
+   
+    height:500px;
+    width:700px;
+    margin-left: 130px;
+   
+}
+
+.container-22
+{
+    
+    background-image:url(./images/arturo-rivera-cDN2QhIzQEU-unsplash.jpg);
+    background-size: cover;
+    height:500px;
+    width:700px;
+   margin-right: 136px;
+   margin-top: 47px;
+}
+
+.last-session-text
+{
+   display: block;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 48px;
+    
+    margin-left: 50px;
+    margin-top: 500px;
+    
+   
+}
+
+.laspara
+{
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.button-2
+{
+    margin-left: 40px;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 2px;
+    padding: 10px;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+    transition: transform 0.6s ease;
+    
+}
+
+.button:hover
+{
+    color:  rgb(85, 181, 181);
+   transition: 0.3s ease-in;
+   box-shadow:1px 1px 10px rgb(209, 209, 209) ;
+
+}
+.container-22 {
+    transition: transform 0.6s ease;
+}
+
+.container-22:hover
+{
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: 0.6s;
+    
+}
+
+.button-2:hover
+{
+    color:  rgb(85, 181, 181);
+    transition: 0.6s;
+}
+/* CSS for footer icons animations */
+.btn-floating i {
+    transition: transform 0.3s; /* Smooth transition effect */
+}
+
+.btn-floating:hover i {
+    transform: translateY(-5px); /* Move the icon up slightly on hover */
+    color:  rgb(85, 181, 181);
+}
